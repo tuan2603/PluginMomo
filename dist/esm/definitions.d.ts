@@ -9,4 +9,5 @@ export interface MomoPluginPlugin {
     }): Promise<{
         value: string;
     }>;
+    payment(): Promise<any>;
 }
