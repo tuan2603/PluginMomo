@@ -1,5 +1,5 @@
 {
-  "name": "MomoPlugin",
+  "name": "momoplugin",
   "version": "0.0.1",
   "description": "momo payment",
   "main": "dist/esm/index.js",
@@ -41,9 +41,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tuan2603/PluginMomo.git"
+    "url": "git+https://github.com/tuan2603/PluginMomo.git"
   },
   "bugs": {
     "url": "https://github.com/tuan2603/PluginMomo.git/issues"
-  }
+  },
+  "homepage": "https://github.com/tuan2603/PluginMomo#readme"
 }
