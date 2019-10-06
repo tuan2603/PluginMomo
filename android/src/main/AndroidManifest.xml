@@ -4,6 +4,10 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <application></application>
+    <application>
+        <activity android:name="com.getcapacitor.SecondActivity">
+            
+        </activity>
+    </application>
 
 </manifest>
