@@ -6,7 +6,7 @@
 
     <application>
         <activity android:name="com.getcapacitor.SecondActivity">
-            
+
         </activity>
     </application>
 

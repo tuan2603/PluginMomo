@@ -6,4 +6,5 @@ declare module "@capacitor/core" {
 
 export interface MomoPluginPlugin {
   echo(options: { value: string }): Promise<{value: string}>;
+  payment(): Promise<any>;
 }
