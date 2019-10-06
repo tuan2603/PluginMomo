@@ -13,6 +13,11 @@ export class MomoPluginWeb extends WebPlugin implements MomoPluginPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async payment(options: any): Promise<any> {
+    console.log('ECHO', options);
+    return options;
+  }
 }
 
 const MomoPlugin = new MomoPluginWeb();

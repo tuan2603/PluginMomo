@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb137734-9943-49cd-b334-661d998cd766" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/kpis/momo/MomoPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/kpis/momo/MomoPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dist/esm/definitions.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../dist/esm/definitions.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/definitions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../src/definitions.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/kpis/momo/MomoPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="75" column="65" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="65" />
+            <state relative-caret-position="-466">
+              <caret line="57" column="23" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -351,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/kpis/momo/MomoPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="75" column="65" selection-start-line="75" selection-start-column="53" selection-end-line="75" selection-end-column="65" />
+        <state relative-caret-position="-466">
+          <caret line="57" column="23" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

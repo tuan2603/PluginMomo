@@ -7,6 +7,7 @@ export declare class MomoPluginWeb extends WebPlugin implements MomoPluginPlugin
     }): Promise<{
         value: string;
     }>;
+    payment(options: any): Promise<any>;
 }
 declare const MomoPlugin: MomoPluginWeb;
 export { MomoPlugin };

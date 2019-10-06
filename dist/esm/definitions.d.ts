@@ -9,23 +9,18 @@ export interface MomoPluginPlugin {
     }): Promise<{
         value: string;
     }>;
-    payment(options: {
-        amount: number;
-        merchantName: string;
-        merchantCode: string;
-        orderId: string;
-        orderLabel: string;
-        merchantNameLabel: string;
-        total_fee: string;
-        description: string;
-    }): Promise<{
-        amount: number;
-        merchantName: string;
-        merchantCode: string;
-        orderId: string;
-        orderLabel: string;
-        merchantNameLabel: string;
-        total_fee: string;
-        description: string;
+    payment(options: requestOptions): Promise<{
+        any: any;
     }>;
 }
+interface requestOptions {
+    amount: number;
+    merchantName: string;
+    merchantCode: string;
+    orderId: string;
+    orderLabel: string;
+    merchantNameLabel: string;
+    total_fee: string;
+    description: string;
+}
+export {};
