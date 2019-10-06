@@ -14,7 +14,7 @@ export interface MomoPluginPlugin {
     orderLabel: string,
     merchantNameLabel: string,
     total_fee: string,
-    description: string
+    description: string,
    }): Promise<{
      amount : number,
      merchantName: string,
@@ -23,6 +23,6 @@ export interface MomoPluginPlugin {
      orderLabel: string,
      merchantNameLabel: string,
      total_fee: string,
-     description: string
+     description: string,
     }>;
 }

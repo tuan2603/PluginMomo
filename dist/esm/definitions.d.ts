@@ -9,5 +9,23 @@ export interface MomoPluginPlugin {
     }): Promise<{
         value: string;
     }>;
-    payment(): Promise<any>;
+    payment(options: {
+        amount: number;
+        merchantName: string;
+        merchantCode: string;
+        orderId: string;
+        orderLabel: string;
+        merchantNameLabel: string;
+        total_fee: string;
+        description: string;
+    }): Promise<{
+        amount: number;
+        merchantName: string;
+        merchantCode: string;
+        orderId: string;
+        orderLabel: string;
+        merchantNameLabel: string;
+        total_fee: string;
+        description: string;
+    }>;
 }
